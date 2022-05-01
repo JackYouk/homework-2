@@ -49,10 +49,32 @@ button:focus {
 }
 
 /* Pics */
-/* About Me Section */
-/* Portfolio Section */
-/* Contacts Section */
+.picture {
+    display: flex;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+}
 
+/* About Me Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 600px;
+    height: 300px;
+    border-color: black;
+}
+
+/* Portfolio Section */
+.work {
+
+}
+
+/* Contacts Section */
+.contacts {
+
+}
   
 /* Media Querys */
 /* Laptop? */
