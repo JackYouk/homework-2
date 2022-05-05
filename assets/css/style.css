@@ -55,16 +55,21 @@ button:focus {
     margin: 50px;
 }
 
-.about h2 {
-    font-size: 200%;
+.pic {
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
     margin-left: 50px;
 }
 
-.about p {
-
+.description h2 {
+    font-size: 200%;
 }
 
-#pic {
+.description p {
+    margin-top: 20px;
 }
 
 /* Portfolio Section */
@@ -84,12 +89,12 @@ button:focus {
   }
   
   .flex-item {
-    border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
+    border: 3px solid black;
+    background-color: rgb(44, 85, 132);
+    color: black;
     min-height: 150px;
     max-height: 150px;
-    flex-basis: calc(50% - 1em);
+    flex-basis: 100%;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -102,17 +107,17 @@ button:focus {
   }
   
   /* feature first portfolio item */
-  .flex-item:first-child {
+  /* .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
-  }
+  } */
   
   .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
   
   .flex-item div {
-    background-color: var(--secondary);
+    background-color: lightcyan;
     padding: 8px 10px;
   }
   
@@ -123,13 +128,47 @@ button:focus {
 
 /* Contacts Section */
 .contacts {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .contacts h2 {
+    display: flex;
+    justify-content: center;
     font-size: 200%;
+    margin-bottom: 10px;
+}
+
+.contacts address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+  
+.contacts address a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, lightblue 0%, lightblue 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+}
+
+.contacts address a:hover {
+    background-size: 100% 88%;
+    color: var(--secondary);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
   
 /* Media Querys */
