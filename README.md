@@ -7,5 +7,7 @@ All links are responsive, either taking the user to a section of the website or 
 The "my work" section of the website is fully functional, however content is yet to be added.
 
 References:
+
 -Referenced Advanced CSS activities, copying and modifying some of the code.
+
 -Referenced Advanced CSS challenge example, copying and modifying some of the code.
