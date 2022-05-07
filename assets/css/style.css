@@ -4,6 +4,10 @@ header {
     text-align: center;
     background: #13293d;
     color: #fff;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header h1 {
@@ -184,12 +188,22 @@ footer {
         width: 150px;
         font-size: 150%;
     }
+
+    img {
+        width: 200px;
+        height: auto;
+    }
 }
 
 /* Cellphone? */
 @media screen and (max-width: 768px) {
     button {
-        width: 120px;
-        font-size: 120%;
+        width: 80px;
+        font-size: 80%;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
     }
 }
