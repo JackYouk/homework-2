@@ -29,7 +29,7 @@ button {
     margin: 0 .5%;
     font-size: 200%;
     color: #13293d;
-    background-color: #fff;
+    background-color: rgba(240, 167, 167, 0.274);
     border: 3px solid #13293d;
 }
 
@@ -53,6 +53,9 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
+    border: 3px solid gray;
+    padding: 10px;
+    background-color: rgba(237, 178, 69, 0.892);
 }
 
 .description {
@@ -177,10 +180,16 @@ footer {
 /* Media Querys */
 /* Laptop? */
 @media screen and (max-width: 992px) {
-    
+    button {
+        width: 150px;
+        font-size: 150%;
+    }
 }
 
 /* Cellphone? */
 @media screen and (max-width: 768px) {
-
+    button {
+        width: 120px;
+        font-size: 120%;
+    }
 }
