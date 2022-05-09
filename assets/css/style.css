@@ -199,7 +199,7 @@ footer {
 @media screen and (max-width: 768px) {
     button {
         width: 80px;
-        font-size: 80%;
+        font-size: 40%;
     }
 
     img {
